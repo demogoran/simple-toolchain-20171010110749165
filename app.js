@@ -68,5 +68,6 @@ router.post('/update', async (ctx)=>{
     ctx.body=await db.updateImageByID(ctx.request.body.produced, ctx.request.body.id);
 });
 
+const cfenv = require('cfenv');
 const appEnv = cfenv.getAppEnv();
 app.listen(appEnv.port, appEnv.bind);
