@@ -4,6 +4,7 @@
   "description": "",
   "main": "app.js",
   "dependencies": {
+    "cfenv": "^1.0.4",
     "cloudant": "^1.8.0",
     "koa": "^2.3.0",
     "koa-body": "^2.5.0",
